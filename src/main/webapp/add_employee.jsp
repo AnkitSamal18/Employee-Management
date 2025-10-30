@@ -9,6 +9,29 @@
         min-height: 100vh;
         font-family: 'Poppins', sans-serif;
     }
+    /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-brand {
+            color: var(--accent) !important;
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+
+        .nav-link {
+            color: var(--text-light) !important;
+            margin-left: 10px;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: var(--accent) !important;
+        }
+    
 
     .overlay {
         position: absolute;
@@ -94,7 +117,22 @@
     }
 
 </style>
-
+ <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Employee Dashboard</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="dashboard.jsp" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="view_employees.jsp" class="nav-link">Employees</a></li>
+                    <li class="nav-item"><a href="add_employee.jsp" class="nav-link">Add Employee</a></li>
+                    <li class="nav-item"><a href="LogoutServlet" class="nav-link text-danger">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <div class="overlay"></div>
 
 <div class="form-container">

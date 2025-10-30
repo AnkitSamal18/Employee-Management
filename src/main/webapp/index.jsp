@@ -178,9 +178,9 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.jsp" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="register.jsp" class="nav-link">Register</a></li>
-                    <li class="nav-item"><a href="about.jsp" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="About.jsp" class="nav-link">About</a></li>
+                     <li class="nav-item"><a href="Contact.jsp" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="term.jsp" class="nav-link">Term & Condition</a></li>
                 </ul>
             </div>
         </div>
