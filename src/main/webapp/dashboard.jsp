@@ -60,6 +60,14 @@ body {
 	color: var(--accent) !important;
 }
 
+.nav-items {
+	border: 1px solid white;
+	border-radius: 10px;
+	widh: 20px;
+	text-align: center;
+	
+}
+
 .welcome-section {
 	text-align: center;
 	margin-top: 100px;
@@ -177,13 +185,7 @@ to {
 				<ul class="navbar-nav">
 					<li class="nav-item"><a href="dashboard.jsp"
 						class="nav-link active">Home</a></li>
-					<li class="nav-item"><a href="view_employees.jsp"
-						class="nav-link">Employees</a></li>
-					<li class="nav-item"><a href="add_employee.jsp"
-						class="nav-link">Add Employee</a></li>
-					<li class="nav-item"><a href="attendance.jsp" class="nav-link">Attendance</a></li>
-					<li class="nav-item"><a href="salary.jsp" class="nav-link">Salary</a></li>
-					<li class="nav-item"><a href="LogoutServlet"
+					<li class="nav-items"><a href="LogoutServlet"
 						class="nav-link text-danger">Logout</a></li>
 				</ul>
 			</div>
